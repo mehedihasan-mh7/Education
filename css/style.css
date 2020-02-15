@@ -1,0 +1,41 @@
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Sniglet', cursive;*/
+body{
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+}
+/*Header start*/
+header{
+	background-color: #ffd338;
+}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 18px;
+	padding: 0 15px !important;
+	color: white !important;
+	border-radius: 15px;
+	transition: 0.3s;
+}
+.menu ul li a:hover {
+	background-color: #f05c5c;
+}
+.btn-user, .btn-search{
+	color: white;
+	margin-right: 5px;
+}
+.btn-user:hover, .btn-search:hover {
+	color: #f05c5c;
+}
+.btn-user:focus .btn-search:focus {
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgb(140, 92, 92);
+}
+.drop-search{
+	top: 70px;
+	left: -250px;
+	min-width: 300px;
+}
+button{
+	margin-top: 4px;
+}
+/*Header end*/
